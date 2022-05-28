@@ -1,0 +1,71 @@
+.container{
+  max-width: 1600px;
+  margin: 0 auto;
+}
+html {
+  scroll-behavior: smooth;
+  }
+body{
+  margin: 0px;
+  background-color: whitesmoke;
+}
+
+h1,h2,h3,p{
+  margin: 0px;
+}
+
+.footer__a{
+  text-decoration: none;
+}
+.rooms__sliver {
+  margin-top: 113px;
+  text-align: center;
+}
+
+.sliver__title {
+  font-family: Adobe Garamond Pro;
+  font-style: normal;
+  font-weight: bold;
+  font-size: 60px;
+  line-height: 72px;
+  color: #14274a;
+}
+
+.sliver__q {
+  font-family: Montserrat;
+  font-style: normal;
+  font-weight: normal;
+  font-size: 30px;
+  line-height: 37px;
+  color: #14274a;
+  margin-bottom: 26px;
+}
+
+.sliver__info {
+  font-family: Montserrat;
+  font-style: normal;
+  font-weight: normal;
+  font-size: 25px;
+  line-height: 30px;
+  color: #14274a;
+  margin-top: 19px;
+}
+
+.sliver {
+  display: flex;
+  justify-content: center;
+  margin-top: 38px;
+}
+.sliver__first {
+  background: #e0b973;
+  width: 30px;
+  border-radius: 10px;
+  padding: 15px 15px;
+}
+.sliver__second {
+  background: #e0b973;
+  width: 30px;
+  margin-left: 21px;
+  border-radius: 10px;
+  padding: 15px 15px;
+}

@@ -1,0 +1,260 @@
+.rooms__content {
+  margin-top: 81px;
+}
+
+.rooms__title {
+  font-family: Adobe Garamond Pro;
+  font-style: normal;
+  font-weight: bold;
+  font-size: 60px;
+  line-height: 72px;
+  text-align: center;
+  color: #14274a;
+}
+
+.rooms__info {
+  margin-top: 29px;
+  font-family: Roboto;
+  font-style: normal;
+  font-weight: normal;
+  font-size: 25px;
+  line-height: 29px;
+  text-align: center;
+  color: #14274a;
+  width: 80%;
+  margin-left: 127px;
+}
+
+.single{
+  width: 90%;
+  margin-left: 67px;
+  margin-right: 67px;
+}
+
+.single__room {
+  margin-top: 82px;
+}
+.single__title {
+  background: #14274a;
+  font-family: Montserrat;
+  font-style: normal;
+  font-weight: bold;
+  font-size: 60px;
+  line-height: 73px;
+  color: #ffffff;
+  padding: 41px 0px;
+  text-align: center;
+  width: 90%;
+  margin-left: 67px;
+}
+
+.single__descr {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  border: 2px solid #14274a;
+  box-sizing: border-box;
+  border-radius: 0px 0px 15px 15px;
+  height: 200px;
+  width: 90%;
+  margin-left: 67px;
+}
+
+.single__left {
+  font-family: Montserrat;
+  font-style: normal;
+  font-weight: bold;
+  font-size: 25px;
+  line-height: 30px;
+  text-align: center;
+  color: #14274a;
+  margin-left: 257px;
+  position: relative;
+  margin-top: 40px;
+  cursor: pointer;
+}
+
+.single__left::before {
+  position: absolute;
+  content: url(../img/plus.svg);
+  width: 51px;
+  height: 51px;
+  left: -30%;
+  top: -40%;
+}
+
+.single__right {
+  font-family: Montserrat;
+  font-style: normal;
+  font-weight: bold;
+  font-size: 25px;
+  line-height: 30px;
+  color: #ffffff;
+  background: #e0b973;
+  border-radius: 5px;
+  margin-right: 162px;
+  margin-top: 30px;
+  padding: 24px 43px;
+}
+.double{
+  width: 90%;
+  margin-left: 67px;
+  margin-right: 67px;
+}
+.double__img {
+  height: 926px;
+}
+.double__room {
+  margin-top: 82px;
+}
+.double__title {
+  background: #14274a;
+  font-family: Montserrat;
+  font-style: normal;
+  font-weight: bold;
+  font-size: 60px;
+  line-height: 73px;
+  color: #ffffff;
+  padding: 41px 0px;
+  text-align: center;
+  width: 90%;
+  margin-left: 67px;
+}
+
+.double__descr {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  border: 2px solid #14274a;
+  box-sizing: border-box;
+  border-radius: 0px 0px 15px 15px;
+  height: 200px;
+  width: 90%;
+  margin-left: 67px;
+}
+
+.double__left {
+  font-family: Montserrat;
+  font-style: normal;
+  font-weight: bold;
+  font-size: 25px;
+  line-height: 30px;
+  text-align: center;
+  color: #14274a;
+  margin-left: 257px;
+  position: relative;
+  margin-top: 40px;
+  cursor: pointer;
+}
+
+.double__left::before {
+  position: absolute;
+  content: url(../img/plus.svg);
+  width: 51px;
+  height: 51px;
+  left: -30%;
+  top: -40%;
+}
+
+.double__right {
+  font-family: Montserrat;
+  font-style: normal;
+  font-weight: bold;
+  font-size: 25px;
+  line-height: 30px;
+  color: #ffffff;
+  background: #e0b973;
+  border-radius: 5px;
+  margin-right: 162px;
+  margin-top: 30px;
+  padding: 24px 43px;
+}
+.twin{
+  width: 90%;
+  margin-left: 67px;
+  margin-left: 67px;
+}
+
+.twin__room {
+  margin-top: 82px;
+}
+.twin__title {
+  background: #14274a;
+  font-family: Montserrat;
+  font-style: normal;
+  font-weight: bold;
+  font-size: 60px;
+  line-height: 73px;
+  color: #ffffff;
+  padding: 41px 0px;
+  text-align: center;
+  width: 90%;
+  margin-left: 67px;
+}
+
+.twin__descr {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  border: 2px solid #14274a;
+  box-sizing: border-box;
+  border-radius: 0px 0px 15px 15px;
+  height: 200px;
+  width: 90%;
+  margin-left: 67px;
+}
+
+.twin__left {
+  font-family: Montserrat;
+  font-style: normal;
+  font-weight: bold;
+  font-size: 25px;
+  line-height: 30px;
+  text-align: center;
+  color: #14274a;
+  margin-left: 257px;
+  position: relative;
+  margin-top: 40px;
+  cursor: pointer;
+}
+
+.twin__left::before {
+  position: absolute;
+  content: url(../img/plus.svg);
+  width: 51px;
+  height: 51px;
+  left: -30%;
+  top: -40%;
+}
+
+.twin__right {
+  font-family: Montserrat;
+  font-style: normal;
+  font-weight: bold;
+  font-size: 25px;
+  line-height: 30px;
+  color: #ffffff;
+  background: #e0b973;
+  border-radius: 5px;
+  margin-right: 162px;
+  margin-top: 30px;
+  padding: 24px 43px;
+}
+
+.single__img{
+  height: 702px;
+  line-height: 1;
+}
+
+.double__img{
+  height: 702px;
+}
+
+.twin__img{
+  height: 701px;
+}
+
+.view{
+  text-decoration: none;
+  cursor:default;
+}

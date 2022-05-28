@@ -1,0 +1,126 @@
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap');
+
+@import url(./classes.css);
+@import url(./header.css);
+@import url(./footer.css);
+@import url(./rooms.css);
+
+.burger__menu{
+  background: gray;
+  width: 70px;
+  height: 70px;
+  display: flex;
+  align-items: center;
+  border-radius: 50px;
+  z-index: 2;
+  display: none;
+}
+.burger__menu:hover .header__mblist{
+  display: flex;
+  right: 0;
+}
+
+.burger__line{
+  width: 80%;
+  margin: 0 auto;
+  height: 4px;
+  background: #fff;
+  position: relative;
+  margin-top: 30px;
+}
+.burger__line::after,
+.burger__line::before{
+  position: absolute;
+  background: #fff;
+  width: 100%;
+  height: 4px;
+  content: "";
+}
+.burger__line::after{
+  top: -12px;
+}
+.burger__line::before{
+  bottom: -12px;
+}
+
+.header__mblist{
+  /* display: none; */
+  background: gray;
+  height: 100vh;
+  margin: 0px;
+  align-items: center;
+  justify-content: center;
+  flex-direction: column;
+  width: 50vw;
+  position: fixed;
+  top: 0;
+  right: -100vw;
+  transition: .5s;
+}
+
+.mb{
+  margin-top: 20px;
+}
+.mb::before {
+  display: none;
+  content: "";
+  width: 0%;
+  height: 2%;
+  background-color: #ffffff;
+  transition: 0.3s;
+  right: 0%;
+}
+.mb::after {
+  display: none;
+  content: "";
+  width: 0%;
+  height: 2%;
+  background-color: #ffffff;
+  top: -30%;
+  left: 0%;
+  transition: 0.3s;
+}
+
+.mb:hover:before {
+  display: none;
+  width: 100%;
+}
+.mb:hover:after {
+  display: none;
+  width: 100%;
+}
+@media screen and (max-width:768px) {
+  .burger__menu {
+    display: block;
+  }  .burger__menu {
+    display: block;
+  }
+  .header__mblist{
+    display: block;
+  }
+
+  .header__ul{
+    display: none;
+  }
+}
+
+@media screen and (max-width:1024px) {
+  .header__img__top{
+    width: 0px;
+    height: 0px;
+    padding: 50px 120px;
+  }
+
+  .header__img__top::before{
+    top: 12%;
+  }
+  .header__li::before{
+    top: 56%;
+  }
+  .header__li::after{
+    top: 9%;
+  }
+  .line::before{
+    top: 56%;
+  }
+  }
